@@ -2,6 +2,8 @@
 
 Making a little platformer in Unity.
 
+[Skyboxes: Farland Skies - Cloudy Crown](https://assetstore.unity.com/packages/2d/textures-materials/sky/farland-skies-cloudy-crown-60004)
+
 ## How can you practice this same project?
 
 Take a look at the AR/VR specialization at Holberton.
