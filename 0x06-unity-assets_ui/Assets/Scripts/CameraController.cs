@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
-    public bool isCamInverted = false;
+    public bool isInverted = false;
     public float turnSpeed = 4.0f;
     public GameObject target;
     private float targetDistance;
@@ -21,10 +21,10 @@ public class CameraController : MonoBehaviour
     void Update ()
     {
         
-        if (isCamInverted == true)
+        if (isInverted == true)
             inverter = -1;
 
-        if (isCamInverted == false)
+        if (isInverted == false)
             inverter = 1;
 
         float y = Input.GetAxis("Mouse X") * turnSpeed;
