@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/ARBusinessCard.unity
+    guid: d08356f4c38bf994fbd1e37599690448
   m_configObjects: {}
